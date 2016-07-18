@@ -24,7 +24,7 @@ public class TestRecord implements Writable {
 	private int K;
 
 	public TestRecord(){}
-	public TestRecord(Long Id, float[] attributes, int K) {
+	public TestRecord(float[] attributes, int K) {
 		this.attributes = attributes;
 		this.K = K;
 	}
